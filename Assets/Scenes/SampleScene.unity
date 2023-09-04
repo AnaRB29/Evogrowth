@@ -245,6 +245,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 898298563145755051, guid: 0826cc56e34167848be0818c9012f435, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 898298563145755051, guid: 0826cc56e34167848be0818c9012f435, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
