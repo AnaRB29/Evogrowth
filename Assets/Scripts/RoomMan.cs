@@ -9,7 +9,7 @@ public class RoomMan : MonoBehaviourPunCallbacks
     {
         Debug.Log(message: "connecting");
         PhotonNetwork.ConnectUsingSettings();
-        
+
     }
     public override void OnConnectedToMaster()
     {
@@ -32,11 +32,5 @@ public class RoomMan : MonoBehaviourPunCallbacks
         Debug.Log(message: "connected room");
 
         GameManager.instance.SpawnPlayer();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

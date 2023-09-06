@@ -230,7 +230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 8662443680802499382, guid: 0826cc56e34167848be0818c9012f435, type: 3}
   speed: 1
-  speedScale: 0
+  scaleSpeed: 4
   cam: {fileID: 519420031}
 --- !u!1001 &920804950
 PrefabInstance:
@@ -404,6 +404,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 920804950}
   - {fileID: 1352644346}
   - {fileID: 1996013726}
-  - {fileID: 920804950}
