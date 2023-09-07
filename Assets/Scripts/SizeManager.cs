@@ -9,6 +9,7 @@ public class SizeManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        currentScale += 0.2f;
         GameManager.instance.SpawnFood();
         Destroy(collision.gameObject);
         

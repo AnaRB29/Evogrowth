@@ -22,15 +22,15 @@ public class RoomMan : MonoBehaviourPunCallbacks
     {
         base.OnJoinedLobby();
 
-        PhotonNetwork.JoinRandomOrCreateRoom(roomName, roomOptions: null, typedLobby: null);
+      //  PhotonNetwork.JoinRandomOrCreateRoom(roomName, roomOptions: null, typedLobby: null);
     }
 
-    public override void OnJoinedRoom()
+   /* public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
 
-        Debug.Log(message: "connected room");
+       // Debug.Log(message: "connected room");
 
-        GameManager.instance.SpawnPlayer();
-    }
+       // GameManager.instance.SpawnPlayer();
+    }*/
 }
